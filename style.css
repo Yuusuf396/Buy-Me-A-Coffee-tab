@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+:root{
+    --orange:#ff6937;
+    --white:#ffffff;
+    --grey:#817171 ;
+    --brown:#3d3d29;
+    --light-orange: #ffd9b3;
+    --place-holder-orange:#fff7f5;
+    --place-holder:#f4f4f4;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    transition: .7s;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: .1px solid var(--brown);
+    border-radius: 8px;
+    width: 350px;
+} 
+
+.header{   
+    gap: 20px;
+    border-bottom: 1px;
+    cursor: pointer;
+     display: flex;
+     justify-content: space-between;
+}
+.remove_border{  
+    border-bottom: 3px solid var(--grey);
+    color: var(--grey);
+    transition: .6s;
+}
+.support_header{
+    padding-bottom: 20px;
+}
+.membership_header{
+    padding-bottom: 20px;
+}
+h2{
+    border-bottom: 3px solid var(--orange);
+    transition: .6s;
+}
+
+ 
+ 
+.username{
+    color: var(--grey);
+}
+.support_text{
+    font-weight: 600;
+    font-size: 19px; 
+    margin-left: 60px;
+}
+ 
+ .rating_card{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid var(--orange);
+    border-radius: 2px;
+    background: var(--place-holder-orange);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+
+ } 
+ .input_name{
+   padding:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: var(--place-holder);
+    border: none;
+
+
+ }
+ .input_message{
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: var(--place-holder);
+    border: none;
+ }
+ 
+ .input_name:focus{
+    background:var(--white) ;
+    border: 1px solid var(--grey);
+ }
+ .input_message:focus{
+    background:var(--white) ;
+    /* border: 1px solid var(--grey); */
+    border: none;
+ }
+ .rating_btn{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.rate{
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    color: var( --orange);
+    background: var(--white);
+    border: 1px solid var(--light-orange);
+    border-radius: 50%;
+}
+.rate:hover{
+ border: 1px solid var(--orange);
+ transition: .3s;
+}
+.selected{
+    background: var(--orange);
+    color: var(--white);
+}
+#range{
+    margin-left: 22px;
+    width: 50px;
+}
+.name{
+    
+    height: 33px;
+}
+#support_btn{
+    color: var(--white);
+    background: var(--orange);
+    font-size: 17px;
+    width: 320px;
+    padding: 14px;
+    margin-left: 27px;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    transition: transform .4s;
+}
+#support_btn:hover{
+    transform: scale(1.04);
+     
+}
+/* Memeberships */
+/* .membership{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    transition: .7s;
+} */
+#membership_btn{
+    color: var(--white);
+    background: var(--orange);
+    border: none;
+    font-size: 17px;
+    padding: 14px;
+    cursor: pointer;
+    transition: transform .4s;
+    border-radius: 15px;
+}
+
+#membership_btn:hover{
+    transform: scale(1.04);
+     
+}
+h3{
+    /* margin-top: 15px; */
+    font-size: 25px;
+}
+h4{
+    font-size:45px;
+    line-height: 1.2px;
+    margin-top: 10px;
+}
+#membership_text_months{
+    margin-top: 0;
+    font-size: 23px;
+    color: var(--grey);
+    line-height: 1.2px;
+}
+.membership_text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.membership_paragraph{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.hidden{
+    display: none;
+    transition: .7s;
+   
+}

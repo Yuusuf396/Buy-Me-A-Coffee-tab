@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Tab_Buy_Me_coffee</title>
+</head>
+<body>
+    <div>
+    <div class="container">
+    <header> 
+        <div class="header">
+        <h2 class="membership_header remove_border ">   
+         <i class="fa-solid fa-lock"></i> Membership
+        </h2>
+        <h2 class="support_header ">   
+           <i class="fa-regular fa-heart"></i> Support
+        </h2> 
+    </div>      
+    </header>
+     <div class="membership hidden" >
+        <div class="membership_text">
+            <h3>Membership</h3>
+            <h4>$1</h4>
+            <p id="membership_text_months">Per Month</p>
+            <input id="membership_btn" type="button" value="Join">
+            <p class="membership_paragraph">Support an independant developer work, that brings you iOS customization hacks since 10 years! 😉✌️</p>
+        </div>
+        <ul>
+            <li>⛔ No ads on all my websites</li>
+            <li>🏆 Access to exclusive features</li>
+            <li>💥 Remove some usage limitations</li>
+            <li>🧪 Early access to beta versions</li>
+            <li>💡 Send me feature requests ideas</li>
+            <li>✉️ Get exclusive members-only posts</li>
+            <li>🙏🏻 My very gratefull thanks!</li>
+            <li>🤑 25% discount for yearly subscriptions!</li>
+        </ul>
+     </div>
+    <div class="support">
+        <p class="support_text">Buy  <span class="username">TooLiPHoNe.NeT </span> a coffe</p>
+        <div>
+            <div class="rating_card">
+            <i class="fa-solid fa-mug-saucer"></i>        
+            &times;
+            <ul class="rating_btn">
+                <li value="1" class="rate selected" >1</li>
+                <li value="3" class="rate">3</li>
+                <li value="5" class="rate">5</li>
+            </ul>
+            <input id="range"  placeholder="1" value="1" type="text" min="1" max="200">
+            </div>
+            
+            <div class="name">
+            <input class="input_name"   size="60px" placeholder="Name" type="text" name="name" >
+            </div>
+
+            <input class="input_message" size="60px" placeholder="Say something nice" name="" id="message" >
+
+            <div>
+            <input type="checkbox" name="Make this private" id="">
+            <span> Make this private</span>
+            </div>
+            <button id="support_btn"> Support <span id="value"></span></button>
+
+        </div>
+    </div>
+ </div>
+</div>   
+</body>
+</html>
