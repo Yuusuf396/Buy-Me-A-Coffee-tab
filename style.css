@@ -23,7 +23,7 @@ body{
     flex-direction: column;
     border: .1px solid var(--brown);
     border-radius: 8px;
-    width: 350px;
+    width: 400px;
 } 
 
 .header{   
@@ -44,6 +44,7 @@ body{
 .membership_header{
     padding-bottom: 20px;
 }
+ 
 h2{
     border-bottom: 3px solid var(--orange);
     transition: .6s;
@@ -207,15 +208,12 @@ h4{
 }
 
 @media (max-width: 480px) {
-    .container{
-        margin-right: 70px;
-        margin-left: 90px;
-        padding: 22px;
-    }
     .support{
-        padding: 12px;
+        padding: 0;
     }
-   
+    .rating_card{
+        padding-left: 0px;
+    }
   }
   
   
