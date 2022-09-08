@@ -205,3 +205,17 @@ h4{
     transition: .7s;
    
 }
+
+@media (max-width: 480px) {
+    .container{
+        margin-right: 70px;
+        margin-left: 90px;
+        padding: 22px;
+    }
+    .support{
+        padding: 12px;
+    }
+   
+  }
+  
+  
