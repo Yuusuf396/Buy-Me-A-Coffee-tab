@@ -23,7 +23,7 @@ body{
     flex-direction: column;
     border: .1px solid var(--brown);
     border-radius: 8px;
-    width: 400px;
+    width: 700px;
 } 
 
 .header{   
@@ -214,11 +214,13 @@ h4{
         padding: 0;
     }
     .rating_card{
-        margin-left: 20px;
-        width: 265px;
+        margin-left: 18px;
+        width: 255px;
+        padding-right: 20px;
     }
     #range{
-        width:20px;
+        width:10px;
+        
     }
     .input_message{
         width: 260px;
