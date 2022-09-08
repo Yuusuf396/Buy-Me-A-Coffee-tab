@@ -12,7 +12,7 @@
 body{
     display: flex;
     justify-content: center;
-    transition: .7s;
+    /* transition: .7s; */
     font-family: 'Roboto Condensed', sans-serif;
 }
 .container{
@@ -64,17 +64,16 @@ h2{
  .rating_card{
     display: flex;
     align-items: center;
-    gap: 5px;
+     
     border: 1px solid var(--orange);
     border-radius: 2px;
     background: var(--place-holder-orange);
-    padding-top: 20px;
-    padding-bottom: 20px;
+   
     padding-left: 10px;
 
  } 
  .input_name{
-   padding:auto;
+   
     margin-top: 20px;
     margin-bottom: 20px;
     background: var(--place-holder);
@@ -129,9 +128,8 @@ h2{
     margin-left: 22px;
     width: 50px;
 }
-.name{
-    
-    height: 33px;
+.name{ 
+    height: 30px;
 }
 #support_btn{
     color: var(--white);
@@ -208,11 +206,40 @@ h4{
 }
 
 @media (max-width: 480px) {
+    .container{
+        width: 290px;
+        padding: 12px;
+    }
     .support{
         padding: 0;
     }
     .rating_card{
-        padding-left: 0px;
+        margin-left: 20px;
+        width: 265px;
+    }
+    #range{
+        width:20px;
+    }
+    .input_message{
+        width: 260px;
+        margin-left: 20px;
+    }
+    .input_name{
+        width: 260px;
+        margin-left: 20px;
+    }
+    .checkbox{
+        margin-left: 15px;
+    }
+    #support_btn{
+        width: 75%;
+    }
+    .support_text{
+        margin-left: 28px;
+    }
+    #support_btn:hover{
+        transform: scale(1.04);
+         
     }
   }
   
